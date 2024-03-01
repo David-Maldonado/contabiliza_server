@@ -4,19 +4,7 @@ const EntidadesContable = require('../models/entidades_contables');
 
 const entidadesContablesCollection = new EntidadesContablesCollection();
 
-entidadesContablesCollection.addEntidadContable(
-  new EntidadesContable('Entidad 1')
-);
-entidadesContablesCollection.addEntidadContable(
-  new EntidadesContable('Entidad 2')
-);
-entidadesContablesCollection.addEntidadContable(
-  new EntidadesContable('Entidad 3')
-);
 
-
-
-  console.log(entidadesContablesCollection);
 
 // Mensajes de sockets
 io.on('connection', client => {
